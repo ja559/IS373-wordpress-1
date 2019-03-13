@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress4');
+define('DB_NAME', 'test');
 
 /** MySQL database username */
-define('DB_USER', 'wordpress4');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password');
+define('DB_PASSWORD', 'plbplbplb');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -78,6 +78,9 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+
+define( 'WP_HOME', 'http://127.0.0.1/wp/wordpress/' );
+define( 'WP_SITEURL', 'http://127.0.0.1/wp/wordpress/' );
 
 /* That's all, stop editing! Happy blogging. */
 
