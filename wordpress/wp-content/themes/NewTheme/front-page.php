@@ -19,7 +19,7 @@
 
 
     </div>
-
+    <h1>Welcome to my Website</h1>
 </div>
 
 <?php get_footer();?>
